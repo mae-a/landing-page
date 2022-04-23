@@ -10,7 +10,7 @@
 
 <body>
     <header id="header">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.logolynx.com%2Fimages%2Flogolynx%2Ff0%2Ff009386dc544d1455db05db19d454629.png&f=1&nofb=1" id="header-img" alt="company logo that says awesome logo" height="100px" width="auto">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.logolynx.com%2Fimages%2Flogolynx%2Ff0%2Ff009386dc544d1455db05db19d454629.png&f=1&nofb=1" id="header-img" alt="company logo that says awesome logo">
         <nav id="nav-bar">
             <a href="#section1" class="nav-link">How Gummy Candies Are Made</a>
             <a href="#section2" class="nav-link">Newsletter</a>
@@ -25,10 +25,10 @@
     
     <div id="section2">
         <p>Subscribe to our monthly newsletter!</p>
-        <form id="form">
-            <label for="email"></label>
-            <input id="email" placeholder="Enter an email address here ..." type="email">
-            <input type="submit" id="submit" url="https://www.freecodecamp.com/email-submit">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <!-- <label for="email"></label> -->
+            <input id="email" placeholder="Enter an email address here ..." type="email" name="email">
+            <input type="submit" id="submit" value="SUBMIT" class="btn">
         </form>
     </div>
 
